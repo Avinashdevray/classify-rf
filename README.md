@@ -257,7 +257,7 @@ All reported metrics are generated programmatically via [`matlab/evaluation/eval
 
 | Metric | Measured Result | Context |
 | :--- | :--- | :--- |
-| **Multi-Label Macro F1-Score** | **68.4%** | Evaluated across extreme noise (-20 dB to 0 dB) and multi-signal collisions |
+| **Multi-Label Macro F1-Score** | **68.4%** | Evaluated across extreme noise (-20 dB to 0 dB) and multi signal collisions |
 | **High-SNR Macro F1 ($\ge -2\text{ dB}$)** | **91.8%** | In low-noise conditions with concurrent signals |
 | **Hamming Loss** | **0.124** | Average protocol error rate across all spectrum bins |
 | **Inference Latency** | **~2.8 ms** | Real-time edge classification capability |
@@ -271,6 +271,7 @@ All reported metrics are generated programmatically via [`matlab/evaluation/eval
 3. **Duty-Cycled Pulses**: Extremely short burst emissions (e.g., SmartBAN pulses under $10\text{ µs}$) require synchronization or energy triggering to avoid silence frames.
 
 ---
+
 
 ## 📄 License
 
